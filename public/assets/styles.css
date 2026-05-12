@@ -9,12 +9,16 @@ footer {
 
 h2 {
     font-style: italic;
+    color: white;
+    width: fit-content;
+    background-color: #181F37;
+    padding: 4px 12px;
 }
 
 h3 {
     width: fit-content;
-    padding: 8px 2px;
-
+    padding: 2px 8px;
+    padding-right: 8px;
     span {
         font-size: 14px;
     }
@@ -59,7 +63,7 @@ img#bb-history-img {
 
 .show {
     opacity: 1;
-    transition: opacity 0.1s;
+    transition: opacityf 0.1s;
     visibility: visible;
 }
 
