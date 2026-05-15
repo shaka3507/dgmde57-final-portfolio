@@ -28,10 +28,12 @@
             must be specifically scoped to certain goals, but will not easily be architected to answer all learning
             design needs.</p>
     </div>
+    <a href="#synthesis">skip to synthesis</a>
+    
     <h2>Previous Reflections</h2>
     <div>
         <h3 id="dropdown-title-1">Block One Reflection <span>↓</span></h3>
-        <div class="reflection hide">
+        <div class="reflection show">
             <div>
                 While working on the first few weeks of assignments, I increasingly started to notice headlines like
                 this
@@ -94,55 +96,78 @@
     </div>
     <div>
         <h3 id="dropdown-title-2">Multimodal Design Reflection <span>↓</span></h3>
-        <div class="reflection hide">Design Intent, Purpose and Process
-
-            I have the opportunity sometimes to teach individuals with little to no coding experience, about web
-            development and design. Because of these experiences, I wanted to focus on an artifact I could potentially
-            use. I first tried making an interactive learning asset, via Gemini, explicitly prompting it to create an
-            interactive ReactJS application that focused on digital literacy. Overall I was happy with the output
-            initial shell application, and chose ReactJS so I could also update the underlying code myself. But when I
-            got to Gemini Nano Banana Pro, the items I wanted to generate seemed to be overly complicated for the model.
-            I struggled to make an image of an older iPhone for example that looked realistic enough and fit the
-            stylistic confines of the application. I ended up pivoting to another idea, related to my actual instruction
-            experiences. One of my favorite styles of dual-coding learning are presenters who white board animation to
-            illustrate an idea. The Royal Society of the Arts (RSA) has an animation series that uses this to illustrate
-            many socio-political topics - one of their videos on capitalism introduced me to this style. My design
-            intent therefore tried to mirror this style of infographics (but I did not provide an RSA video or any
-            specific articles related to RSA).
-
-            My design attempts to incorporate pedagogical scaffolding by subtly introducing certain syntax in each
-            section - for example, the opening and closing tags of HTML, curly brace usage in CSS. This tool's initial
-            renderings were very realistic and polished. Something interesting I noticed was that the syntax for CSS
-            included is wrong - it added parentheses "()" instead of curly braces "{}"- which I kept as a reminder that
-            although the tool is powerful, the output still needs to be reviewed. It is interesting that such a powerful
-            tool could get basic CSS syntax incorrect. I think if I were to keep syntax in my final design, I would want
-            to explore more on what's important, specifically figuring out what generates students curiosity after the
-            metaphor of a house is utilized, to actual web development. The elements of the house serve as analogue
-            codes, or mental representations of the somewhat abstract building blocks of web design. I also lean on
-            house building as it is a mental model that folks may not need additional explanation for - it also has the
-            opportunity to strike up even more discussion and conversation if folks have been exposed to construction,
-            or can use other elements of a home to ask questions to the instructor. This infographic is a step before a
-            more traditional infographic that would more heavily rely on actual syntax (like an abstract DOM tree, or
-            the actual coding syntax for JavaScript).
-
-            Because I have a free Gemini Nano Banana Pro account, I had to be really conservative with my actual prompts
-            to the image generation tool. I hit the daily limit quickly with my initial prompting that created the
-            digital literacy tool. I changed strategy after that by trying meta-prompting - first by working with Gemini
-            3 Pro to create the prompt for Nano Banana Pro. I also wanted the chat to be more interactive and explicitly
-            asked the LLM to ask me 2-3 questions to ensure it had clarity before moving forward. I liked this back and
-            forth approach, where Gemini ended up serving as a collaborative partner to create a more refined and
-            efficient prompt for generating the image. I told the LLM that it was a master prompt engineer, an
-            educational instructor and knowledgeable in web design. It was able to keep this context, I also gave the
-            design back to the LLM to give feedback within these roles. After receiving the feedback, I was then able to
-            have it create a prompt to then send back through the image generation process.
-
-            This process also included somethings we explored in class - for example more basic initial ideation prompts
-            like "provide me with 20 titles ideas for the design". The final title I used was a close edit of one of the
-            outputs. I also thought the initial questions it asked me back were intentional and got us to a better
-            workable design more efficiently than my earlier sessions. It's role within the conversation as an expert in
-            educational instruction also allowed us to collaborate and clarify the dual-coding theory aspects within in
-            the design. I also gave the LLM some constraints, for example ensuring it used reliable resources for
-            conceptualizing web design (like MDN) before coming up with an outline and the final infographic.
+        <div class="reflection show">
+            Design Intent, Purpose and Process
+                I have the opportunity sometimes to teach individuals with little to no coding experience, about web
+                development and design. Because of these experiences, I wanted to focus on an artifact I could
+                potentially
+                use. I first tried making an interactive learning asset, via Gemini, explicitly prompting it to create
+                an
+                interactive ReactJS application that focused on digital literacy. Overall I was happy with the output
+                initial shell application, and chose ReactJS so I could also update the underlying code myself. But when
+                I
+                got to Gemini Nano Banana Pro, the items I wanted to generate seemed to be overly complicated for the
+                model.
+                I struggled to make an image of an older iPhone for example that looked realistic enough and fit the
+                stylistic confines of the application. I ended up pivoting to another idea, related to my actual
+                instruction
+                experiences. One of my favorite styles of dual-coding learning are presenters who white board animation
+                to
+                illustrate an idea. The Royal Society of the Arts (RSA) has an animation series that uses this to
+                illustrate
+                many socio-political topics - one of their videos on capitalism introduced me to this style. My design
+                intent therefore tried to mirror this style of infographics (but I did not provide an RSA video or any
+                specific articles related to RSA).
+                My design attempts to incorporate pedagogical scaffolding by subtly introducing certain syntax in each
+                section - for example, the opening and closing tags of HTML, curly brace usage in CSS. This tool's
+                initial
+                renderings were very realistic and polished. Something interesting I noticed was that the syntax for CSS
+                included is wrong - it added parentheses "()" instead of curly braces "{}"- which I kept as a reminder
+                that
+                although the tool is powerful, the output still needs to be reviewed. It is interesting that such a
+                powerful
+                tool could get basic CSS syntax incorrect. I think if I were to keep syntax in my final design, I would
+                want
+                to explore more on what's important, specifically figuring out what generates students curiosity after
+                the
+                metaphor of a house is utilized, to actual web development. The elements of the house serve as analogue
+                codes, or mental representations of the somewhat abstract building blocks of web design. I also lean on
+                house building as it is a mental model that folks may not need additional explanation for - it also has
+                the
+                opportunity to strike up even more discussion and conversation if folks have been exposed to
+                construction,
+                or can use other elements of a home to ask questions to the instructor. This infographic is a step
+                before a
+                more traditional infographic that would more heavily rely on actual syntax (like an abstract DOM tree,
+                or
+                the actual coding syntax for JavaScript).
+                Because I have a free Gemini Nano Banana Pro account, I had to be really conservative with my actual
+                prompts
+                to the image generation tool. I hit the daily limit quickly with my initial prompting that created the
+                digital literacy tool. I changed strategy after that by trying meta-prompting - first by working with
+                Gemini
+                3 Pro to create the prompt for Nano Banana Pro. I also wanted the chat to be more interactive and
+                explicitly
+                asked the LLM to ask me 2-3 questions to ensure it had clarity before moving forward. I liked this back
+                and
+                forth approach, where Gemini ended up serving as a collaborative partner to create a more refined and
+                efficient prompt for generating the image. I told the LLM that it was a master prompt engineer, an
+                educational instructor and knowledgeable in web design. It was able to keep this context, I also gave
+                the
+                design back to the LLM to give feedback within these roles. After receiving the feedback, I was then
+                able to
+                have it create a prompt to then send back through the image generation process.
+                This process also included somethings we explored in class - for example more basic initial ideation
+                prompts
+                like "provide me with 20 titles ideas for the design". The final title I used was a close edit of one of
+                the
+                outputs. I also thought the initial questions it asked me back were intentional and got us to a better
+                workable design more efficiently than my earlier sessions. It's role within the conversation as an
+                expert in
+                educational instruction also allowed us to collaborate and clarify the dual-coding theory aspects within
+                in
+                the design. I also gave the LLM some constraints, for example ensuring it used reliable resources for
+                conceptualizing web design (like MDN) before coming up with an outline and the final infographic.
             <figure>
                 <img src="public/assets/robot-art.jpeg" class="section-img" />
                 <figcaption>Picture of Robot on computer coding, in front of illustrative tropical background (<a
@@ -153,68 +178,70 @@
     </div>
     <div>
         <h3 id="dropdown-title-3">Block Two Reflection <span>↓</span></h3>
-        <div class="reflection hide two">
-            <div>I really enjoyed the capabilities Spatial.io provided to users out of the box - and
-                specifically how VR platforms can allow younger users to learn and experience topics. I had less
-                experience
-                with VR (and some experience with Unity) but felt like the product we made as a group, with having
-                little
-                experience with VR before, felt powerful enough. My first takeaway is that tools like this, can allow
-                educators to quickly spin up learning tools without a lot of pre knowledge or training beforehand. After
-                utilizing the tool, I could quickly imagine how to market this tool to local Children’s museums (for
-                example
-                Bronzeville Children’s Musem) and can really expand the type of tech museums and educational spaces have
-                access to, so much so that I’m considering prototyping an experience to send to them, to see if they’re
-                interested.
-
-
-
-                During collaboration, I really enjoyed that we tried to keep the experience focused on the music, and
-                building on the proposition that Bad Bunny is posing, that music can educate people. You can see
-                evidence of
-                this proposition via his collaboration with Jorell Meléndez-Badillo, a University of Wisconsin–Madison
-                assistant professor of Latin American and Caribbean history which gave each song a syllabus of
-                information
-                to engage with. The collaboration with the other classmates and the MUSE colleagues then became easier
-                as we
-                already had a body of work to really engage with, and center ourselves within. Making some initial
-                decisions
-                about the tech (for example using a template room) allowed us to really focus on the artifacts, and gave
-                us
-                more space to learn about Puerto Rican history and culture, as it relates to decolonization and
-                resistance.
-
-
-
-                I think we early on had a team decision that really helped us make future choices later without much
-                challenge; how political should the exhibit read and feel? We decided to let the work speak for itself
-                as
-                much as possible, and also realized that even some of the “apolitical” items, were deeply political. For
-                example, the pandereta hand drum, used in Plena, was used by many agricultural workers and later by
-                worker
-                movements. The genre, also known as the “sung newspaper”, was used to communicate with others the social
-                and
-                political happenings of the day. I think the decision to therefore not necessarily worry about the
-                “politicalness” of the exhibit, but to instead be truthful and also ensure our sources allowed folks
-                from
-                the island and diaspora control the conversation became a goal. Overall this helped us update the
-                artifacts
-                used iteratively, and I believe is displayed in our final product - a somewhat cohesive display of
-                artifacts
-                that tell a layered story about colonization on the island. I think we also made a direct decision to
-                make
-                sure learners understood the lyrics, specifically highlighting the decolonization messages within the
-                songs.
-                For non Spanish speakers, this tries to ensure they can really engage with the messages, and reading
-                lyrics
-                and watching music videos is a great way to ensure dual coding.
-
-
-                As an web design instructor, I am now thinking deeper about how to really connect the learning to things
-                present in folks everyday lives. For example, how would it look to always make sure learners have access
-                to
-                visuals and even sounds, to connect to HTML/JavaScript/CSS, and how to make it more familiar, less
-                intimidating and joyful.
+        <div class="reflection show two">
+            <div>
+                <p>I really enjoyed the capabilities Spatial.io provided to users out of the box - and
+                    specifically how VR platforms can allow younger users to learn and experience topics. I had less
+                    experience with VR (and some experience with Unity) but felt like the product we made as a group,
+                    with having
+                    little experience with VR before, felt powerful enough. My first takeaway is that tools like this,
+                    can allow
+                    educators to quickly spin up learning tools without a lot of pre knowledge or training beforehand.
+                    After
+                    utilizing the tool, I could quickly imagine how to market this tool to local Children’s museums (for
+                    example Bronzeville Children’s Musem) and can really expand the type of tech museums and educational
+                    spaces have
+                    access to, so much so that I’m considering prototyping an experience to send to them, to see if
+                    they’re
+                    interested. </p>
+                <p>
+                    During collaboration, I really enjoyed that we tried to keep the experience focused on the music,
+                    and
+                    building on the proposition that Bad Bunny is posing, that music can educate people. You can see
+                    evidence of this proposition via his collaboration with Jorell Meléndez-Badillo, a University of
+                    Wisconsin–Madison
+                    assistant professor of Latin American and Caribbean history which gave each song a syllabus of
+                    information to engage with. The collaboration with the other classmates and the MUSE colleagues then
+                    became easier
+                    as we already had a body of work to really engage with, and center ourselves within. Making some
+                    initial
+                    decisions about the tech (for example using a template room) allowed us to really focus on the
+                    artifacts, and gave
+                    us more space to learn about Puerto Rican history and culture, as it relates to decolonization and
+                    resistance.
+                </p>
+                <p>
+                    I think we early on had a team decision that really helped us make future choices later without much
+                    challenge; how political should the exhibit read and feel? We decided to let the work speak for
+                    itself as much as possible, and also realized that even some of the “apolitical” items, were deeply
+                    political. For
+                    example, the pandereta hand drum, used in Plena, was used by many agricultural workers and later by
+                    worker movements. The genre, also known as the “sung newspaper”, was used to communicate with others
+                    the social
+                    and political happenings of the day. I think the decision to therefore not necessarily worry about
+                    the
+                    “politicalness” of the exhibit, but to instead be truthful and also ensure our sources allowed folks
+                    from the island and diaspora control the conversation became a goal. Overall this helped us update
+                    the
+                    artifacts used iteratively, and I believe is displayed in our final product - a somewhat cohesive
+                    display of
+                    artifacts that tell a layered story about colonization on the island. I think we also made a direct
+                    decision to
+                    make sure learners understood the lyrics, specifically highlighting the decolonization messages
+                    within the
+                    songs. For non Spanish speakers, this tries to ensure they can really engage with the messages, and
+                    reading
+                    lyrics and watching music videos is a great way to ensure dual coding.
+                </p>
+                <p>
+                    As an web design instructor, I am now thinking deeper about how to really connect the learning to
+                    things
+                    present in folks everyday lives. For example, how would it look to always make sure learners have
+                    access
+                    to visuals and even sounds, to connect to HTML/JavaScript/CSS, and how to make it more familiar,
+                    less
+                    intimidating and joyful.
+                </p>
             </div>
             <figure>
                 <img id="bb-history-img" src="public/assets/bad-bunny-history.png" class="section-img" />
@@ -224,15 +251,56 @@
             </figure>
         </div>
     </div>
-    <h2>Semester Synthesis</h2>
+    <h2 id="synthesis">Semester Synthesis</h2>
     <p>
-        Throughout the course I was able to be introduced to different learning design theories and methods for learning on top - what seemed to come up the most was the emergence of AI is really pushing many to further understand the purpose of learning and school. For example if we can create more customized experiences for different types of learners, AI may allow us to do that - but also those customized experiences have to be grounded in actual research. We don’t necessarily understand the effectiveness of someone working with a chatbot though, so someone being put in front of a chatbot needs to have clear guidelines on the goal of using a chatbot. All usage of generative AI needs to be grounded in actual learning theories. Also the type of content is also important. When I created the chatbot to learn Digital Literacy, I thought a chatbot would be great because often folks need help navigating technical tools and feel some embarrassment when they don’t know the answer. A chatbot allows them to navigate with less shame - but the chatbot still gives problematic answers. Something teaching digital literacy cannot afford to give problematic answers. But the usage of generative AI to make a deterministic multimodal experience may be safer in relation to the content.
+        Throughout the course I was able to be introduced to different learning design theories and methods for learning
+        in 2026. What seemed to come up the most is how the emergence of AI is challenging us to further understand the
+        actual purpose of learning and school. At one level, the technology is bringing up the same debate as before -
+        ie, "why do we need to learn X, if this tech can do it for us?". Or look how great AI is, we can make an
+        infinite amount of experiences for learners within the same course and same material. But what we also found out
+        is that the tool being built whether it's using AI needs to be actually grounded in research and solid learning
+        design. For example, someone being put in front of a chatbot needs to have clear guidelines on the goal of using
+        a chatbot. The chatbot needs clear context and guardrails on what it's goal is with the learner. All usage of
+        generative AI needs to be grounded in actual learning theories. Also the type of content is also important. When
+        I created the chatbot to learn Digital Literacy, I thought a chatbot would be great because often folks need
+        help navigating technical tools and feel some embarrassment when they don’t know the answer. A chatbot allows
+        them to navigate with less shame - but the chatbot still gives problematic answers. Something teaching digital
+        literacy cannot afford to give problematic answers. But the usage of generative AI to make a deterministic
+        multimodal experience may be a better end user experience. But again this learning isn't just for generative AI,
+        it's for emerging technology used in the space - even if the use itself is cool, it must be grounded in
+        learning.
     </p>
     <p>
-        The possibility in immersive experiences, especially free tools online like Spatial.io and games really give us a blueprint for engaging learners of all ages. With the rise in popularity of Virtual Reality headsets, games and online and digital learning, it seems like we're still on the very tip of the iceberg for creating these experiences. Some of this may be due to adoption - for example, even though Spatial.io runs in a browser, it still uses a lot of CPU/GPU and can slow someone’s machine down. For example, if we created even a browser based experience, how would it run on a less expensive Chromebook at a Chicago Public School. So even though I enjoyed creating an experience on Spatial.io I was reminded during our presentations (when various performance issues popped up) that this technology is still not accessible to everyone (even if you have a computer). I notice that all of these emerging technologies are only as good as the technology, the learning design and the level of accessibility of the tool.
+        The possibility in immersive experiences, especially free tools online like Spatial.io and games really give us
+        a blueprint brought up a similar conversation for me. We cannot just create these immersive experiences or
+        gamify learning because it's fun - it has to be grounded in learning desing. After we got to experiment with
+        some of the games being pushed in K-12 environments, I had the opportunity to talk with my 6 year old nephew
+        about his experience with certain games. He loved all the products we played with in class, but also his goal in
+        general is to maximize screen time. So although I love the games and even created one for my final project, I'm
+        still wary of the increased amount of screen time pushed on learners in general. Especially games that may not
+        have much of a social aspect, how do we ensure tools like chatbots, or games not only give information, but
+        allow learners to build connections with other learners? My other concern with gaming, and specifically virtual
+        reality was around adoption. It's still somewhat in it's infancy stage for adoption, and the demand on VR
+        content is high. For example, even though Spatial.io runs in a browser, it still uses a lot of CPU/GPU and can
+        slow someone's machine down. For example, if we created even a browser based experience, how would it run on a
+        less expensive Chromebook at a Chicago Public School. So even though I enjoyed creating an experience on
+        Spatial.io I was reminded during our presentations (when various performance issues popped up) that this
+        technology is still not accessible to everyone (even if you have a computer). I notice that all of these
+        emerging technologies are only as good as the technology, the learning design and the level of accessibility of
+        the tool.
     </p>
     <p>
-        This question of figuring out the right mixture of learning design, technology and subject matter will continue to be a conversation. As we discussed briefly in class, when Wikipedia emerged on the scene, many of us remember the huge distaste many of our teachers had for the website, much preferring physical Encyclopedias. What was lost from that narrative though is that physical Encyclopedias are expensive, heavy and become outdated very quickly. For example seeing Encyclopedias from the 1950s and 1960s referring to countries and nations with names from a pre-colonial Independence context. Wikipedia had the capacity to create a decentralized method for a true world encyclopedia with less emphasis on figuring out what is important enough to print. The emerging technology we discovered in class will have the same battle and its effectiveness will always be its speed to implement and demonstrate learning theories that are already proven; companies cannot trick us into thinking that just the usage of these technologies is inherently good or a higher quality experience. 
+        This question of figuring out the right mixture of learning design, technology and subject matter will continue
+        to be a conversation. As we discussed briefly in class, when Wikipedia emerged on the scene, many of us remember
+        the huge distaste many of our teachers had for the website, much preferring physical Encyclopedias. What was
+        lost from that narrative though is that physical Encyclopedias are expensive, heavy and become outdated very
+        quickly. For example seeing Encyclopedias from the 1950s and 1960s referring to countries and nations with names
+        from a pre-colonial Independence context. Wikipedia had the capacity to create a decentralized method for a true
+        world encyclopedia with less emphasis on figuring out what is important enough to print. The emerging technology
+        we discovered in class will have the same battle and its effectiveness will always be its speed to implement and
+        demonstrate learning theories that are already proven; companies cannot trick us into thinking that just the
+        usage of these technologies is inherently good or a higher quality experience. We have to be vigilant in
+        measuring and determining outcomes to ensure learning remains intact.
     </p>
 </body>
 

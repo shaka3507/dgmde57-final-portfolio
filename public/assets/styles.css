@@ -1,5 +1,6 @@
 body {
     font-family: 'Urbanist', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 16px;
 }
 
 footer {
@@ -13,6 +14,14 @@ h2 {
     width: fit-content;
     background-color: #181F37;
     padding: 4px 12px;
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: black;
 }
 
 h3 {
